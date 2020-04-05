@@ -1,8 +1,7 @@
-Aryacoin Core version 0.13.3 is now available from:
+Aryacoin Core version 2.00.0 is now available 
 
-  <https://download.aryacoin.io/aryacoin-0.13.3/>
 
-This is a new minor version release, including new features, various bugfixes and performance improvements.
+This is a new major version release, including new features, various bugfixes and performance improvements.
 It is recommended to upgrade to this version.
 
 Please report bugs using the issue tracker at github:
@@ -54,27 +53,5 @@ This only affects users that have explicitly enabled UPnP through the GUI settin
 
 If you use this option, it is recommended to upgrade to this version as soon as possible.
 
-Reset Testnet
--------------
 
-Testnet3 has been deprecated and replaced with Testnet4. The server port has been changed to 19335 however the RPC port remains
-the same (19332).
 
-Testnet faucets can be located at:
-- http://testnet.aryacointools.com
-- http://testnet.thrasher.io
-
-Developers who require the new testnet blockchain paramaters can find them [here](https://github.com/Aryacoin/Aryacoin/blob/0.13/src/chainparams.cpp#L214).
-
-Credits
-=======
-
-Thanks to everyone who directly contributed to this release:
-
-- [The Bitcoin Core Developers](/doc/release-notes)
-- Adrian Gallagher
-- Shaolin Fry
-- Xinxi Wang
-- Out0fmemory
-- Erasmospunk
-- Romanornr
